@@ -1,12 +1,13 @@
-
-FROM golang:alpine
+FROM golang:alpine AS builder
 
 WORKDIR /app
-
 COPY . .
 
+RUN go build -o app
 
-RUN go build -o main .
 
+FROM scratch
 
-CMD ["./main"]
+COPY --from=builder /app/app /app
+
+CMD ["/app"]
