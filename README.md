@@ -15,9 +15,9 @@ Neste desafio, você executará uma imagem Docker contendo um simples programa G
 Certifique-se de ter o Docker instalado em sua máquina. Em seguida, execute o seguinte comando para baixar a imagem do Docker Hub:
 
 ```bash
-docker pull deisleted/fullcycle
+docker pull deisleted/fullcycle:latest
 
-docker run deisleted/fullcycle
+docker pull deisleted/fullcycle:latest
 
 ```
 
