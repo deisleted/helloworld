@@ -17,7 +17,6 @@ Certifique-se de ter o Docker instalado em sua máquina. Em seguida, execute o s
 ```bash
 docker pull deisleted/fullcycle:latest
 
-docker pull deisleted/fullcycle:latest
 
 ```
 
